@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  /* Button group styling */
+  .btn-group-toggle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-light {
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-light:hover, .btn-light:focus {
+    background-color: #e7e7e7;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .btn-light.active, .btn-light:active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-orange {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-orange:hover {
+    background-color: #e67e00;
+    border-color: #cc6d00;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .btn-group-toggle {
+      flex-direction: column;
+    }
+  
+    .btn-light {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
